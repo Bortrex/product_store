@@ -1,0 +1,3 @@
+SET date BRITISH
+
+SET CENTURY on

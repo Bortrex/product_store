@@ -1,0 +1,9 @@
+SELECT Sh.nomer_schet, Po.pastavshik, Sh.date_prodazh, Do.id_dogovor,;
+  Sh.otmetka_oplati, Sh.otmetka_postuplen;
+ FROM ;
+     schet Sh,;
+    postavshik Po,;
+    dogovor Do;
+ WHERE  Sh.nomer_dogovor = Po.id_postav;
+   AND  Do.id_dogovor = Po.id_postav;
+ INTO TABLE free_tables\table_zakaz.dbf  
